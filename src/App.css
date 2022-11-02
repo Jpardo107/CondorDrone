@@ -1,0 +1,34 @@
+.LandingPage{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    position: relative;
+    transition: 0.5s;
+}
+@media only screen and (max-width: 600px){
+    .Video-bg{
+        width: 100%;
+        height: 100vh;
+        position: absolute;
+        z-index: -1;
+        object-fit: cover;
+    }    
+}
+@media screen and (min-width: 600px){
+    .Video-bg{
+        width: 100%;
+        height: 100vh;
+        position: absolute;
+        z-index: -1;
+        object-fit: cover;
+    }
+}
+
+.Bg-Overlay{
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.2);
+}
