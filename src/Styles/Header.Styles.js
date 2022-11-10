@@ -34,13 +34,15 @@ export const ContainerHeader = styled.div`
 
 export const LogoEmp = styled.img`
 @media screen and (max-width: 600px) {
-    height: 18vh;
-    width: 35vw;
-    padding: 10px;
+    height: 19vh;
+    width: 28vw;
+    padding: 5px;
+    margin-left: 8px;
 }
 @media screen and (min-width: 600px) {
     height: 19vh;
-    width: 14vw;
+    width: 12vw;
+    margin-left: 50px;
 }
 `
 

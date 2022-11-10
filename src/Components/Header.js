@@ -15,7 +15,7 @@ export const Header = () => {
           <ContainerCenter>
             <Titulo style={{
               color:'gray'
-            }}>Condor Drone®</Titulo>
+            }}>Condor Drone</Titulo>
             <Menu>
               <MenuRes />
             </Menu>
